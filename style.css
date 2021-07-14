@@ -1,0 +1,56 @@
+body, html {
+  height: 100%;
+}
+
+.form {
+  text-align: center;
+  padding: 20px;
+}
+
+.search {
+  width: 30%;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.adform {
+  margin: 25px 35px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.formbox {
+  width: 100%;
+}
+
+.formtitle {
+  font-size: 16px;
+}
+
+#logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 92px;
+  max-height: 290px;
+  height: calc(100% - 560px);
+  flex-shrink: 0;
+  box-sizing: border-box;
+  margin-top: auto;
+}
+
+#logoimg {
+  max-height: 92px;
+  margin-top: auto;
+}
+
+#titletext {
+  color: #d93025;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 25px 35px;
+}
+
+#asearch {
+  text-align: right;
+}
